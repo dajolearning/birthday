@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Birthday Wordle 🎉</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>Birthday Wordle 💝</h1>
+      <div class="sub">100 puzzles — your progress saves automatically</div>
+    </div>
+    <div class="topBtns">
+      <button id="hintBtn">Hint</button>
+      <button id="resetBtn" class="danger">Reset</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="bar">
+      <div>Progress: <strong id="progressText">—</strong></div>
+      <div>Guesses: <strong id="guessesText">0/6</strong></div>
+    </div>
+
+    <div id="grid" class="grid"></div>
+
+    <div class="card">
+      <div class="hint"><strong>Hint:</strong> <span id="hintText">—</span></div>
+    </div>
+
+    <div id="kbd" class="kbd"></div>
+    <div id="toast" class="toast"></div>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
