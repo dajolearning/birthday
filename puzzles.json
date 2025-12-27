@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "puzzles": [
+    {
+      "answer": "SMILE",
+      "hints": [
+        "Something you do in photos",
+        "It’s contagious",
+        "You’re doing it when you’re happy"
+      ],
+      "winMessage": "YES!! Happy birthday!! 🎉"
+    },
+    {
+      "answer": "PIZZA",
+      "hints": [
+        "Round-ish",
+        "We should celebrate with this",
+        "Cheese + joy"
+      ],
+      "winMessage": "Legend. Go get a slice 🍕"
+    }
+  ]
+}
