@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Admin – Birthday Wordle</title>
+</head>
+<body>
+  <h1>Admin Editor</h1>
+  <p>This page helps you build puzzles.json</p>
+
+  <input id="answer" placeholder="ANSWER (5 letters)">
+  <br><br>
+  <textarea id="hints" placeholder="One hint per line"></textarea>
+  <br><br>
+  <textarea id="win" placeholder="Win message"></textarea>
+  <br><br>
+  <button onclick="add()">Add Puzzle</button>
+  <button onclick="exportJson()">Export puzzles.json</button>
+
+  <pre id="out"></pre>
+
+<script src="admin.js"></script>
+</body>
+</html>
